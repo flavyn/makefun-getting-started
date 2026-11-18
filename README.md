@@ -180,6 +180,7 @@ Claims pay USDC on Solana and include an automatic sanctions screen.
 - Pasting finished code: let the recorded agent session write and revise the entry.
 - Submitting stale files: push the checked version and use its exact commit hash.
 - Ignoring a failed check: resolve it first; a refused entry may use up an attempt.
+- Before submitting, search the README for your referral code; an entry whose README does not carry it is refused.
 
 ## Troubleshooting
 
@@ -187,6 +188,8 @@ Claims pay USDC on Solana and include an automatic sanctions screen.
 - **No sessions found:** check which agent session wrote the files and use `bundle --help` to locate or supply it.
 - **Check fails:** fix the named rule locally, regenerate transcripts after edits and rerun check.
 - **Login expires:** rerun login, open its new link and approve the matching code.
+
+The entry's status page names each failed check together with its fix, so read it before submitting again.
 
 ## Links
 
